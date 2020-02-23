@@ -1,0 +1,17 @@
+{
+  "name": "vue-translate-extract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": "cli.js",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "yargs": "^15.1.0"
+  }
+}
