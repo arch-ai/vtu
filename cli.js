@@ -2,14 +2,12 @@
 const yargs = require('yargs')
 const chalk = require('chalk');
 const currentPackage = require('./package.json');
-
+const extractCommand = require('./lib/command/extract')
+const convertCommand = require('./lib/command/convert')
 require('yargonaut')
 .style('blue')
 .style('green.underline', 'Examples:')
 .errorsStyle('red')
-
-const extractCommand = require('./lib/command/extract')
-const convertCommand = require('./lib/command/convert')
 
 console.log("\r\n" + chalk.green("VTU - " + currentPackage.version) + "\r\n")
 
