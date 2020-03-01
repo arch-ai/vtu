@@ -1,4 +1,4 @@
-# VTU 1.1.0
+# VTU
 ### Vue translation utils
 
 ```
