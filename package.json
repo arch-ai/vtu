@@ -1,6 +1,6 @@
 {
   "name": "vtu",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Vue i18n translation utilities",
   "scripts": {
     "test": ""
@@ -13,5 +13,9 @@
     "lodash": "^4.17.15",
     "yargonaut": "^1.1.4",
     "yargs": "^15.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isaacs/minimatch.git"
   }
 }
