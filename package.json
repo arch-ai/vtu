@@ -3,19 +3,32 @@
   "version": "1.2.0",
   "description": "Vue i18n translation utilities",
   "scripts": {
-    "test": ""
+    "test": "",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
-  "keywords": ["vue", "translation", "utils", "utilities", "extract", "convert", "i18n", "vue-i18n"],
+  "keywords": [
+    "vue",
+    "translation",
+    "utils",
+    "utilities",
+    "extract",
+    "convert",
+    "i18n",
+    "vue-i18n"
+  ],
   "author": "Marius M. <contact.marius.m@gmail.com>",
   "license": "GPL-3",
   "bin": "cli.js",
   "dependencies": {
     "lodash": "^4.17.15",
     "yargonaut": "^1.1.4",
-    "yargs": "^15.2.0"
+    "yargs": "^15.2.0",
+    "snyk": "^1.316.1"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/nenzark/vtu.git"
-  }
+  },
+  "snyk": true
 }
