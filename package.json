@@ -12,7 +12,7 @@
   "dependencies": {
     "lodash": "^4.17.15",
     "yargonaut": "^1.1.4",
-    "yargs": "^15.2.0"
+    "yargs": "^16.0.0"
   },
   "repository": {
     "type": "git",
